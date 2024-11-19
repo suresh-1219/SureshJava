@@ -1,19 +1,28 @@
 package org.tnsif.capgemini.c2tc.oops;
 
-class Animal5
+class Animalls
 {
 	void makeSound()
 	{
-		System.out.println("Animal makes a Sound");
-		
+		System.out.println("Animal makes a sound");
+	}
+}
+class Dogs extends Animalls
+{
+	void makeSound()
+	{
+		super.makeSound();
+		System.out.println("Dog Barks");
 	}
 }
 
 public class SuperMethod {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	  Dogs dog=new Dogs();
+	  dog.makeSound();
+	 
+			  
 	}
 
 }
