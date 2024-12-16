@@ -1,4 +1,4 @@
-package JavaFullStack;
+package org.tnsif.capgemini.c2tc.javabase;
 
 public class VariableDemo {
    int id=10; //instance variable

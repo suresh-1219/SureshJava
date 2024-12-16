@@ -1,4 +1,4 @@
-package JavaFullStack;
+package org.tnsif.capgemini.c2tc.javabase;
 
 class Demo
 {
@@ -21,7 +21,7 @@ public class DefaultValuesChecking {
     System.out.println(d1.d);
     System.out.println(d1.c);
     System.out.println(d1.b1);
-   System.out.println(d1.strvalue);
+    System.out.println(d1.strvalue);
     System.out.println(d1.a);
 	}
 
