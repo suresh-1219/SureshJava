@@ -1,10 +1,9 @@
 package org.tnsif.capgemini.c2tc.interfacedemo;
 
-public class Vehicle {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+public interface Vehicle {
+		public abstract void start();
+		public abstract void stop();
+		
+	    int Max_Speed=120;
+	  
 }

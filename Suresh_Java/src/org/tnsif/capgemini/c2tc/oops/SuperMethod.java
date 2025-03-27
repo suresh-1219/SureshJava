@@ -1,13 +1,13 @@
 package org.tnsif.capgemini.c2tc.oops;
 
-class Animalls
+class Animal5
 {
 	void makeSound()
 	{
 		System.out.println("Animal makes a sound");
 	}
 }
-class Dogs extends Animalls
+class Dog5 extends Animal5
 {
 	void makeSound()
 	{
@@ -19,7 +19,7 @@ class Dogs extends Animalls
 public class SuperMethod {
 
 	public static void main(String[] args) {
-	  Dogs dog=new Dogs();
+	  Dog5 dog=new Dog5();
 	  dog.makeSound();
 	 
 			  

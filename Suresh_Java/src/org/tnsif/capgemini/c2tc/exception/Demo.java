@@ -3,8 +3,15 @@ package org.tnsif.capgemini.c2tc.exception;
 public class Demo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		int a=10;
+		int b=20;
+		int sum=add(a,b);
+		
+		System.out.println(sum);
+	}
+	public static int add(int a,int b)
+	{
+		return a-b;
 	}
 
 }
