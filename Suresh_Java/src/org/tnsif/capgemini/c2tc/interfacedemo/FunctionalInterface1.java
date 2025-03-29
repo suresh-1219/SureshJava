@@ -1,10 +1,8 @@
 package org.tnsif.capgemini.c2tc.interfacedemo;
+import java.lang.FunctionalInterface;
 
-public class FunctionalInterface1 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+@FunctionalInterface
+public interface FunctionalInterface1 {
+     void sayHello(String name);
+     
 }
