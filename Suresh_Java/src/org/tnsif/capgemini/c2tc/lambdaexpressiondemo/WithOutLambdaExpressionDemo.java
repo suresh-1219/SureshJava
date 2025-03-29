@@ -18,4 +18,4 @@ public class WithOutLambdaExpressionDemo {
 		Drawable d=new Test();
 		d.draw();
 	}
-}//19 lines
+}

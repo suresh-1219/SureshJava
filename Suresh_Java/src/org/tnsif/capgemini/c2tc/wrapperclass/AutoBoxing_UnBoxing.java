@@ -70,8 +70,6 @@ public class AutoBoxing_UnBoxing {
 
         boolean unboxedBoolean = wrapperBoolean; // Unboxing
         System.out.println("Unboxed boolean: " + unboxedBoolean);
-
-
 		
 	}
 
